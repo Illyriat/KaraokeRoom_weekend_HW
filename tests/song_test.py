@@ -6,7 +6,7 @@ class TestSong(unittest.TestCase):
         self.song = Song("Asleep In The Deep", "Mastodon", "2014")
 
     def test_find_song_by_name(self):
-        self.assertEqual("Asleep In The Deep", self.song.name)
+        self.assertEqual("Asleep In The Deep", self.song.title)
 
     def test_song_by_artist(self):
         self.assertEqual("Mastodon", self.song.artist)
